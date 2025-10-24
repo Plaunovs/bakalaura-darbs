@@ -167,20 +167,15 @@ Tika mērīti sekojoši **kritēriji**:
 
 ## 📊 Grafiskā analīze
 
-![ROC līknes](summary/roc_curves.png)  
-*ROC (Receiver Operating Characteristic) līknes parāda sistēmu jutības un specifiskuma līdzsvaru.*
+## 📈 ROC līknes
 
-![Salīdzinājuma diagrammas](summary/comparison_charts.png)  
-*Vizualizēta precizitātes, izpildes laika, CPU un RAM patēriņa salīdzināšana.*
+ROC (Receiver Operating Characteristic) līknes ilustrē katras sistēmas jutības un specifiskuma līdzsvaru.
 
----
-
-## 🔍 Secinājumi
-
-- **InsightFace** — labākais līdzsvars starp precizitāti un ātrumu (FPS).  
-- **DeepFace (VGG-Face)** — augsta precizitāte, bet lielāks resursu patēriņš.  
-- **face_recognition** — vienkārša integrācija, zemāka precizitāte sarežģītos apstākļos.  
-- Atvērtā koda risinājumi ir **praktiski izmantojami** mazās drošības sistēmās un pētniecībā.
+| Sistēma | ROC līkne |
+|----------|------------|
+| **face_recognition** | ![ROC Face Recognition](summary/roc_face_recognition.png) |
+| **DeepFace** | ![ROC DeepFace](summary/roc_DeepFace.png) |
+| **InsightFace** | ![ROC InsightFace](summary/roc_InsightFace.png) |
 
 ---
 
